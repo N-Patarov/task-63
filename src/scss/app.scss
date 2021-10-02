@@ -29,7 +29,9 @@ html {
     display: flex;
   }
   .card {
-    width: map-get($widget-sizes,regular);
+    map-get($widget-sizes,large);
+    map-get($widget-sizes,small);
+    width: map-get($widget-sizes,large);
     height: map-get($widget-sizes,small);
     margin-right: 30px;
     .hot {
